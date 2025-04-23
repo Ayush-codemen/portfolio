@@ -9,7 +9,7 @@ export default function Hero() {
     <section id="hero" className="py-20 md:py-28 bg-gradient-to-br from-emerald-50 via-sand-50 to-white">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
-          <div className="w-full md:w-2/5 flex justify-center md:justify-start">
+          <div className="w-full md:w-2/5 flex justify-center">
             <div
               className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl
                           transition-transform duration-500 hover:scale-105 group"
@@ -78,9 +78,9 @@ export default function Hero() {
               </Link>
             </div>
 
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button className="bg-emerald-700 hover:bg-emerald-800 transition-colors group">
-                <a href="cv.jpg" download>
+                <a href="cv.jpg" download className="flex gap-2 items-center">
                   <Download className="h-4 w-4 mr-2 group-hover:animate-bounce" />
                   Download Resume
                 </a>
