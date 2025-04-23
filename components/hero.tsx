@@ -15,7 +15,7 @@ export default function Hero() {
                           transition-transform duration-500 hover:scale-105 group"
             >
               <Image
-                src="/ayush.png"
+                src="ashu.png"
                 alt="Ayush Kumar Singh"
                 width={320}
                 height={320}
