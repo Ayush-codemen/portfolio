@@ -78,7 +78,7 @@ export default function Hero() {
               </Link>
             </div>
 
-            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+            <div className="flex flex-wrap gap-4 justify-center">
               <Button className="bg-emerald-700 hover:bg-emerald-800 transition-colors group">
                 <a href="cv.jpg" download>
                   <Download className="h-4 w-4 mr-2 group-hover:animate-bounce" />
