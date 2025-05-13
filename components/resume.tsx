@@ -10,14 +10,14 @@ export default function Resume() {
           <div className="bg-white rounded-lg shadow-md p-6 border border-slate-200 w-full max-w-3xl mb-8">
             <div className="aspect-[8.5/11] w-full bg-slate-100 flex items-center justify-center rounded-md mb-6">
               <img
-                src="/special.jpg"
+                src="/Align.jpg"
                 alt="Specialized Resume"
                 className="max-w-full max-h-[600px] rounded-md object-contain"
               />
             </div>
 
             <div className="flex flex-col gap-4 items-center">
-              <a href="/special.jpg" download>
+              <a href="/Align.jpg" download>
                 <button className="flex items-center gap-2 bg-purple-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition-colors">
                   <Download className="h-4 w-4" />
                   <span>Download Specialized CV</span>

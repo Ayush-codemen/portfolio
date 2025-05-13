@@ -14,7 +14,7 @@ export default function Hero() {
                           transition-transform duration-500 hover:scale-105 group"
             >
               <Image
-                src="ashu.png"
+                src="Align cv.jpg"
                 alt="Ayush Kumar Singh"
                 width={320}
                 height={320}
@@ -79,7 +79,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button className="bg-emerald-700 hover:bg-emerald-800 transition-colors group">
-                <a href="cv.jpg" download>
+                <a href="Align cv.jpg" download>
                   <Download className="h-4 w-4 mr-2 group-hover:animate-bounce" />
                   Download Resume
                 </a>

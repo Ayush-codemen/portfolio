@@ -80,7 +80,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button className="bg-emerald-700 hover:bg-emerald-800 transition-colors group">
-                <a href="cv.jpg" download className="flex gap-2 items-center">
+                <a href="Align cv.jpg" download className="flex gap-2 items-center">
                   <Download className="h-4 w-4 mr-2 group-hover:animate-bounce" />
                   Download Resume
                 </a>
