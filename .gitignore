@@ -25,3 +25,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Backup/copy files
+* copy/
+* copy.*
+.DS_Store
+.next/
+node_modules/
+.env
+.env.local
